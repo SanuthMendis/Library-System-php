@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="web project.css">
+        <style>
+            body{
+                background-image: url("library2.jpg");
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="taskbar"> 
+            <button class="button1">My Account</button>
+            <button class="button2">Contact Us</button>
+            <button class="button3">About Us</button>
+            <button class="button4">Study room reservation</button>
+            </div>
+
+     <div class="heading"> 
+        <h1>NSBM Library System</h1> 
+    </div>
+
+    <table>
+        <tr>
+            <td id="firstrow">Enter Book Name</td>
+            <td><input type="text" name="bname"></td>
+        </tr>
+        <tr>
+            <td id="secondrow">Author</td>
+            <td><input type="text" name="bauthor"></td>
+        </tr>
+    </table>
+    </body>
+</html>

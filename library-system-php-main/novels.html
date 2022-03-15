@@ -1,0 +1,147 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<style>
+    body {
+        background-image: url("nov.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover
+    }
+
+    .column {
+        float: left;
+        width: 20%;
+        padding: 5px 30px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    h1 {
+    font-family:'Lucida Sans';
+    font-size: 250%;
+    background-color: rgba(255, 251, 246, 0.247);
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffffe8;
+    
+  }
+  h2{
+    background-color: rgba(255, 247, 246, 0.363);
+  }
+
+    img {
+        width: 200px;
+        height: 300px;
+    }
+    .container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #042733;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+<body>
+    <h1>Novels</h1>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+            <h2>Memory</h2>
+            <img src="pic21.jpg">
+            <div class="overlay">
+                <div class="text"><h5>Philippe Grimbert is the author of<br>Memory.A sickly French child<br>invents
+                    a make-believe older<br> brother, only to learn from<br> a family friend that,he did, in fact
+                    ,<br> have an older half-brother who <br>was killed in a concentration camp<br> during World 
+                    War Two, a fact which <br>leads to darker family secrets.</h5>
+               </div> 
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                <h2>Huntress</h2>
+                <img src="pic22.jpg">
+                <div class="overlay">
+                    <div class="text"><h5>The Huntress is the name of<br>several fictional characters appearing<br>in comic books publis
+                        hed by DC<br> Comics, commonly in association<br>with Batman. The two most well-known<br>women to 
+                        bear the Huntress<br>name are Helena Bertinelli<br> and Helena Wayne, the latter<br> being from a
+                        n alternate universe.</h5>
+                    </div>        
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="container">
+                    <h2>Harry Potter</h2>
+                    <img src="pic23.jpg">
+                    <div class="overlay">
+                        <div class="text"><h5>Harry Potter is a series of seven <br>fantasy novels written by British<br> 
+                            author J. K. Rowling. She is from Yate,<br> England (The UK).She was born<br> on July 31st, 1
+                            965.The novels chronicle <br>the lives of a young wizard,Harry Potter,<br> and his friends He
+                            rmione Granger
+                            <br> and Ron Weasley,all of whom are<br> students at Hogwarts School of <br>Witchcraft and
+                             Wizardry.</h5></div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="container">
+                        <h2>The Wizard of OZ</h2>
+                        <img src="pic 24.jpg">
+                        <div class="overlay">
+                            <div class="text"><h5>L.Frank Baum is the author of <br>The Wizard of OZ, is the stor
+                                y <br>of Dorothy and her little dog Toto
+                                , <br>who are caried away from Kansas <br>by a cyclone and transported<br> to the
+                                 wonderful world of OZ.</h5></div>
+                        </div>
+                        </div>
+                    </div>
+
+
+    </div>
+
+
+
+</body>
+</html>

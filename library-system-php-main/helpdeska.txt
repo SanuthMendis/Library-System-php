@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help Desk</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <link rel="stylesheet" type="text/css" href="help.css">
+
+
+
+</head>
+<body>
+
+<center><h1 style="font-size:50px;"> NSBM Library Help desk</h1></center>
+
+
+<div class="top">
+    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="button" name="bton0" value="Home" class="input">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <input type="button" name="bton" value="My Account" class="input">&nbsp;&nbsp;&nbsp;
+
+    <input type="button" name="bton1" value="New Membership" class="input">&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <input type="button" name="bton2" value="Browse Online" class="input">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" name="bton3" value="New Releases" class="input"> &nbsp;&nbsp;&nbsp;&nbsp;
+   
+    <input type="button" name="bton4" value="Requests" class="input"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    
+
+
+    <input type="button" name="bton5" value="FAQ" class="input">
+
+</div>
+
+<div class="bodiv1">
+<b>Due to the Covid-19 Pandemic situation of the country, many direct phone lines have been disconnected.Therefore, we kindly advise you to use the mobile phone numbers given on the contacts</b>
+</div>
+
+
+<div class="main">
+
+<div class="div2">
+	<h4 >General Inquiries</h4><p>T.P. : 011 2698847 /  0112 685197<br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0112 685199  /  0112 688855<br>Fax : 0112 685201<br>Email : info@nsbm.lk</p>
+</div>
+
+<div class="div2"> 
+	<h4 class="fontheding">Postal Address</h4><p>NSBM Green University Library<br>Mahenwaththa<br/>Pitipana<br/>Homagama<br>Sri Lanka</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="content">
+	<h2 ><mark><u>Divisions & Contacts<mark></u></h2>
+
+                    <table  align="center">
+                        <tr>
+                            <td>Acquisition Division</td>
+                            <td>acq@nsbm.ac.lk</td>
+                            <td > 0112 685200  /  </td>
+                            <td > 071 3888326</td>
+                        </tr>
+                        <tr>
+                            <td>Reader Services Division</td>
+                            <td>readerser@nsbm.ac.lk</td>
+                            <td> 0112 674386  /  </td>
+                            <td> 070 3535764</td>
+                       
+                        </tr>
+                        <tr>
+                            <td>Membership Management Division</td>
+                            <td>libmemberships@nsbm.lk</td>
+                            <td> 0112 698847  /  </td>
+                            <td> 071 0554566</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Information Technology Division</td>
+                            <td>it@nsbm.ac.lk</td>
+                            <td> 0112 688925  /  </td>
+                            <td> 071 4452206</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Conservation & Preservation Division</td>
+                            <td>conserv@nsbm.ac.lk</td>
+                            <td> 0112 056244  /  </td>
+                            <td> 077 3376838</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Library Research Division</td>
+                            <td>research@nsbm.ac.lk</td>
+                            <td> 0112 056388  /  </td>
+                            <td> 071 4435475</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Library Cooperation Division</td>
+                            <td>libcoop@nsbm.ac.lk</td>
+                            <td> 011 3054427  /     </td>
+                            <td> 077 7486412</td>
+                        </tr>
+
+
+</table>
+
+</div>
+<br><br><br>
+
+
+                    <table class="tbclass2" align="center">
+                        <caption><h3><mark><u>Librarian</u></mark></h3></caption>
+                    	<tr>
+                    		<td>Mrs. Sherine Fernando</td>
+                    	</tr>
+                        
+                        <tr>
+                            <td>sherine@nsbm.lk</td>
+                        </tr>
+                        <tr>
+                            <td>078-9365124</td>
+                        </tr>
+                            
+                       
+                    </table>
+
+<br><br><br>
+
+
+<table class="tbclass2" align="center">
+    <caption><h3><mark><u>Assistant Librarian</u></mark></h3></caption>
+<tr>
+<td>Ms. Mary Gunathilaka</td>
+</tr>	
+
+<tr>
+ <td>mary@nsbm.lk</td>
+</tr>
+<tr>
+ <td>076-8951248</td>
+</tr>
+
+ </table>
+
+<hr>
+<h2><mark><u>Other</u></mark> </h2>
+<table class="tbclass2">
+
+<tr>
+<td colspan="4">Membership Renewal</td>
+<td > 0112 056388</td>
+<td >renewlib@nsbm.ac.lk</td>
+ 
+</tr>
+
+
+<tr>
+   <td colspan="3">Marketing Office   </td>
+   <td colspan="3"> 0112 566954</td>
+
+</tr>
+
+<tr>
+<td colspan="4">Researches</td>
+<td> <a href="https://www.nsbm.ac.lk/facility/library/#">Researches/nsbm</td>
+</tr>
+</table>
+
+
+<hr>
+<div class="form">
+	
+<form name="new" method="post" action="Inquiries.html">
+<center><table class="f1" >
+	<caption><h2><u><b> Send Us Your Inquiries</b></u></h2></caption>
+	<tr>
+		<td>Name : </td>	
+		<td><input type="text" name="nme"> </td>
+	</tr>
+	<tr>
+		<td>Email : </td>
+		<td><input type="text" name="eml"></td>
+	</tr>
+	<tr>
+<td>Contact Number :</td>
+<td> <input type="number" name="cntnum"> </td>
+</tr>
+<tr>
+<td>Message :</td>
+<td> <input type="text" name="msg"></td>
+<td><input type="submit" name="subm" value="SUBMIT" style="font-weight:bold;text-align:center;font-size:20px;"></td>
+</tr>
+
+</table>
+
+</center>
+</form>
+</div>
+
+<div class="bottom">
+    
+<div class="bottinner">
+                <h3>Connect with Us</h3>
+                <table>
+                    <tr>
+                        <td><img src="fb.jpg" width="50" height="50"></td>
+                        <td><a  href="https://www.facebook.com/nsbm.lk/">Facebook</a></td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td><img src="twittter.png" width="50" height="50"></td>
+                        <td><a  href="https://twitter.com/NSBM_SriLanka?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></td>
+                        
+                    </tr>
+
+
+                    <tr>
+                        <td><img src="youtube.png" width="50" height="50"></td>
+                        <td><a  href="https://www.youtube.com/channel/UCHsodhRyiuri2jD7H7nfsRg">YouTube</a></td>
+                        
+                    </tr>
+
+                </table>
+            </div>
+
+
+    <div class="bottinner">
+            <h3>Faculties</h3>
+        <a  href="https://www.nsbm.ac.lk/faculties/faculty-of-computing/">Faculty of Computing</a><br><br>
+        <a  href="https://www.nsbm.ac.lk/faculties/faculty-of-business/">Faculty of Business</a><br><br>
+        <a class="class1" href="https://www.nsbm.ac.lk/faculties/faculty-of-engineering/">Faculty of Engineering</a>
+    
+
+    </div>
+    <div class="bottinner">
+         <h3>Useful links</h3>
+                    <a  href="https://students.nsbm.ac.lk/">Student Portal</a><br><br>
+                    <a  href="https://www.nsbm.ac.lk/news/">News</a><br><br>
+                   <a class="class1" href="https://www.nsbm.ac.lk/enroll-now/">New Enrolments</a>
+    </div>
+
+
+
+</div>
+
+
+<div class="footer"> &copy 2020 - NSBM Green University Town - All rights reserved</div>
+
+
+
+
+
+</body>
+</html>  

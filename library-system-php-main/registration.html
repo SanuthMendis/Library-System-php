@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="myaccount.php" method="POST">
+  <div class="container">
+    <h1>Register Form</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+         Student Name<input type="text" name="fname"><br>
+         StudentID<input type="text" name="id"><br>
+         DegreeProgram<input type="text" name="text"><br>
+         Batch
+         <select id="batch" name="Batch">
+             <option value="16.1">16.1</option>
+             <option value="16.2">16.2</option>
+             <option value="17.1">17.1</option>
+             <option value="17.2">17.2</option>
+             <option value="18.1">18.1</option>
+             <option value="18.2">18.2</option>
+             <option value="19.1">19.1</option>
+             <option value="19.2">19.2</option>
+             <option value="20.1">20.1</option>
+             <option value="20.2">20.2</option>
+           </select>
+   
+    <div class="container">
+      <button type="submit" class="registerbtn">Create A new Account</button>
+      <span class="psw"><a href="myaccount.php"></a></span>
+  </div>
+
+</form>
+
+</body>
+</html>

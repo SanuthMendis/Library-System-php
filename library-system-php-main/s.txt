@@ -1,0 +1,37 @@
+.heading{
+  text-align:center;  
+  font-weight: bold;
+  background-color: greenyellow; 
+  width: 40%;
+  font-size: x-large;
+  font-family: initial;
+}
+
+.taskbar{
+    border:1px solid black; 
+    width:40%;
+    height:6%;
+    float:right;
+
+}
+.button1{
+    font-size:14px;   
+    padding:12px 29px; 
+}
+.button2{
+ font-size:14px;   
+ padding:12px 29px; 
+}
+.button3{
+ font-size:14px;   
+ padding:12px 29px;
+}
+.button4{
+    font-size:14px;   
+    padding:12px 30px;
+}
+#firstrow{
+    color:white;
+    font-weight:bold;
+    font
+}

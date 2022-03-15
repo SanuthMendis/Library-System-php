@@ -1,0 +1,113 @@
+div.outer{
+ height:100%;
+ width:100%;
+ border:1px solid red;
+background-image: url("myaccountlibrary.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+ div.nsbm{
+ height:17%;
+border:1px;
+}
+ 
+ div.taskbar{
+ position:static;
+ border:1px ;
+float:right;
+ 
+}
+
+div.Nameoforganization{
+text-align:center;
+background-color:greenyellow;
+}
+
+#aa{
+font-weight:bold;
+ font-size:15px;
+ padding:14px 30px;
+}
+
+#a{
+font-weight:bold;
+ font-size:14px;
+padding:14px 30px;
+}
+
+#b{
+font-weight:bold;
+ font-size:14px;
+padding:12px 29px;
+}
+
+#c{
+font-weight:bold;
+ font-size:14px;
+padding:12px 29px;
+}
+#d{
+font-weight:bold;
+ font-size:14px;
+padding:12px 30px;
+}
+
+div.profileimage{
+            width:200;
+            height:200;
+            border: 1px solid blue;
+}
+div.info{
+ background-color:white;
+opacity:0.5;
+width:20%; 
+    margin-left:40%; 
+    margin-right:40%;
+ 
+}
+#tboard{
+  
+}
+
+ #firstrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+}
+
+#secondrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+
+}
+
+#thirdrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+
+}
+#fourthrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+
+}
+#fifthrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+
+}
+
+#sixthrow{
+color:black;
+font-weight:bold;
+font-size:20px;
+}
+
+
+
+ 

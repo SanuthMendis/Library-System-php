@@ -1,0 +1,127 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<style>
+    body {
+        background-image: url("acc.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover
+    }
+
+    .column {
+        float: left;
+        width: 20%;
+        padding: 5px 30px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    h1 {
+    font-family:'Lucida Sans';
+    font-size: 250%;
+    background-color: rgba(255, 251, 246, 0.247);
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffffe8;
+    
+  }
+  h2{
+    background-color: rgba(255, 251, 246, 0.068);
+  }
+
+    img {
+        width: 200px;
+        height: 300px;
+    }
+    .container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:#042733;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+<body>
+    <h1>Accounting and Finance</h1>
+    <br>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+            <h2>Accounting Principles</h2>
+            <img src="pic5.jpg">
+            <div class="overlay">
+                <div class="text">&nbsp;&nbsp;&nbsp;Accounting principles are<br>&nbsp;&nbsp;&nbsp;the general rules and
+                	<br> &nbsp;&nbsp;&nbsp;guidelines that companies<br>&nbsp;&nbsp;&nbsp;are required to follow when<br>&nbsp;&nbsp; reporting all accounts <br>&nbsp;&nbsp;&nbsp;and financial data.<br>&nbsp;&nbsp;&nbsp;The purpose of following <br>&nbsp;&nbsp;&nbsp;accounting principles is<br>&nbsp;&nbsp;&nbsp;to communicate economic<br>&nbsp;&nbsp;&nbsp;information in a language that<br>&nbsp;&nbsp;is acceptable and understandable<br>&nbsp;&nbsp;from one business to another.</div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                <h2>Management Accounting</h2>
+                <img src="pic6.jpg">
+                <div class="overlay">
+                    <div class="text">Management accounting is the<br>process of preparing reports<br>about business operations<br> that help managers<br> make short-term and<br> long-term decisions.<br>It helps a business pursue<br> its goals by identifying,<br> measuring, analyzing,<br> interpreting and communicating<br> information to managers</div>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="container">
+                    <h2>Structure of Accounting</h2>
+                    <img src="pic7.jpg">
+                    <div class="overlay">
+                        <div class="text">Structure of Accounting<br>can be divided into five major<br> categories called <br>accounts,assets,liabilities,equity,<br>revenue and expenses.<br>These topics will help you<br>better understand what<br> a chart of accounts is and<br> how its used by businesses</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="container">
+                        <h2>Practical Accounting</h2>
+                        <img src="pic8.jpg">
+                        <div class="overlay">
+                            <div class="text">&nbsp;&nbsp;Practical Accounting provides<br>&nbsp;a foundational understanding<br>&nbsp;of Accounting and its importance<br>&nbsp;within an organization<br>&nbsp;and introduces participants<br>&nbsp;to basic accounting skills<br> which are applicable in a <br>&nbsp;working accounting environment</div>
+                        </div>
+                        </div>
+                    </div>
+
+    </div>
+
+
+</body>
+</html>
